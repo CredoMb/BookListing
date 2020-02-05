@@ -1,4 +1,4 @@
-![BookListing_double_layout](https://user-images.githubusercontent.com/48886200/73867650-d1426280-4825-11ea-8fe6-fc4947c11a01.png
+![BookListing_double_layout](https://user-images.githubusercontent.com/48886200/73867650-d1426280-4825-11ea-8fe6-fc4947c11a01.png)
 
 # BookListing
 
