@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- App name -->
+    <string name="app_name">Book Listing</string>
+    <!-- Text for the empty view of the "No internet connexion" state -->
+    <string name="no_internet_title">No internet connection.</string>
+    <string name="no_internet_subtitle">Please check your internet connection</string>
+    <!-- Text for the empty view of the "no task" state -->
+    <string name="no_task_title"> No entry yet </string>
+    <string name="no_task_subtitle">To get started, enter a book genre \nin the search bar</string>
+
+    <!-- Text for the empty view of the "no result found" state -->
+    <string name="no_results_title"> No result found </string>
+    <string name="no_results_subtitle">Adjust your search to find what \nyou are looking for</string>
+
+    <!-- The reviewers text -->
+    <string name="reviewers"> Reviews</string>
+    <!-- The search hint for the first page of the app -->
+    <string name="search_hint"> Enter a Book Genre </string>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Left and Right margin used for many of the views -->
+    <dimen name="marginStartEnd">16dp</dimen>
+
+    <!-- For the textView of the review -->
+    <dimen name="reviews_text_view">80dp</dimen>
+
+    <!-- Size for all the texts beside from the title -->
+    <dimen name="generalTextSize">12sp</dimen>
+
+    <!-- Size for the book Title -->
+    <dimen name="titleTextSize">16sp</dimen>
+
+</resources>

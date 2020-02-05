@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout to present a book -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_item"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp">
+
+    <!-- This groupView contains the info about the book -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/book_title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/avenir_next_ltpro_bold"
+            style="@style/textViews"
+            android:textColor="@color/textColorBookTitle"
+            android:textSize="@dimen/titleTextSize"
+            tools:text="Think and Grow Rich" />
+        <!-- -->
+
+        <TextView
+            android:id="@+id/authors_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/avenir_nextltpro_regular"
+            style="@style/textViews"
+            android:textAllCaps="true"
+            android:textColor="@color/textColorAuthors"
+            android:textSize="@dimen/generalTextSize"
+            tools:text="Credo Mb and Cie" />
+
+    </LinearLayout>
+
+    <!-- The GroupView contains info about the reviewers -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="@dimen/marginStartEnd"
+        android:layout_marginEnd="@dimen/marginStartEnd"
+        android:orientation="vertical">
+
+        <!-- The text views contains the number of reviewers -->
+        <RatingBar
+            android:id="@+id/rating_bar"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="true"
+            android:theme="@style/RatingBar"
+            android:numStars="5"
+            android:saveEnabled="true" />
+
+        <!-- This text contains the word "Reviewers" -->
+        <TextView
+            android:id="@+id/reviewer_count_text_view"
+            android:layout_width="@dimen/reviews_text_view"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:fontFamily="@font/avenir_nextltpro_regular"
+            style="@style/textViews"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/textColorBookReviewers"
+            android:textSize="@dimen/generalTextSize"
+            android:text="@string/reviewers" />
+
+    </LinearLayout>
+
+</LinearLayout>
