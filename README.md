@@ -21,5 +21,4 @@ P.S.This App was not created for commercial use. Its only purpose was to help pr
 The mockup used to draw the empty state views was made by Boris Kozelev, it's a free resource downloaded on 
 https://www.sketchappsources.com/free-source/4028-empty-states-icons-sketch-freebie-resource.html 
 
-Be side from the mockup, the owner of this github profile is the only contributor to this app. New Ideas and
-innovative concepts are welcomed :)
+Exept for the mockup linked above, the owner of this github profile is the only contributor to this app. New Ideas and innovative concepts are welcomed :)
