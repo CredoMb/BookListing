@@ -11,7 +11,7 @@ The app queries the Google Books API to find the books.
 By clicking on one of the items returned by the API, the User is redirected 
 to the book's Webpage.
 
-P.S.This App was not created for commercial use. Its only purpose was to help practice android skills
+P.S.This App was not created for commercial use.
 
 ## Prerquisites 
 
